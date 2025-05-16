@@ -2,7 +2,7 @@
   "name": "ecommerce",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000",
+  "proxy": "https://restorestaurent.netlify.app/",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.4",
     "@testing-library/dom": "^10.4.0",

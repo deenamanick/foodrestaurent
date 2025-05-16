@@ -13,7 +13,7 @@ export default function OrderHistoryPage() {
     if (user?.email) {
       setLoading(true);
       axios
-        .get(`http://localhost:5000/api/orders/${user.email}`)
+        .get(`https://restorestaurent.netlify.app/api/orders/${user.email}`)
         .then((res) => {
           setOrders(res.data);
           setLoading(false);

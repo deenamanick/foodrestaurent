@@ -36,7 +36,7 @@ export default function CheckoutPage() {
     };
 
     try {
-      await axios.post("http://localhost:5000/api/orders", order);
+      await axios.post("https://restorestaurent.netlify.app/api/orders", order);
       setStatus("✅ Order placed successfully!");
       clearCart();
     } catch (err) {
