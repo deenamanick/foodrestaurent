@@ -18,22 +18,22 @@ export default function Footer() {
           <h5 className="text-lg font-semibold mb-2">Quick Links</h5>
           <ul className="space-y-1 text-sm">
             <li>
-              <a href="#" className="hover:text-yellow-400">
+              <a href="/" className="hover:text-yellow-400">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-yellow-400">
+              <a href="/" className="hover:text-yellow-400">
                 Menu
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-yellow-400">
+              <a href="/" className="hover:text-yellow-400">
                 Contact
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-yellow-400">
+              <a href="/" className="hover:text-yellow-400">
                 About Us
               </a>
             </li>
